@@ -1,0 +1,19 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazıp,
+Big-O gösterimini yapalım.
+
+Merge Sort bir listeyi her adımda parçalayıp, tek eleman kalıncaya kadar bölüyordu.  
+big-o gösteriminde n elemanlı bir örütü için n-1 birim zaman gerekiyordu. 
+
+16-21-11-8-12-22
+
+16-21-11       8-12-22
+
+16-21    11      8-12    22
+
+11 16-21      8-12    22
+
+8-11-12-16-21-22
+
+n=6 olayda n-1=5 birim sürede.
