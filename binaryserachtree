@@ -1,0 +1,6 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Root x için, aradığım y değeri x den büyükse ağacımdaki x den küçük olanlara bakmıyorum, aradığım z değeri x den küçükse de, büyük olan tarafa bakmayarak zaman kazanmış oluyorum.
+ağaç dengeli olursa average case O(logn)
+                    worst case O(n)
+                    insertion O(logn) oluyor
