@@ -1,0 +1,12 @@
+#Belirlenen ad ve soyad listeleri içinden rastgele seçim yaparak sahte isimler oluşturur.
+
+import random
+
+def rastgeleisim():
+    ad=["irem","ipek","mert","özkan"]
+    soyad=["avşar","güvercin","erdeniz"]
+
+    return"{} {}".format(random.choice(ad),format(random.choice(soyad)))
+
+for i in range(5):
+    print(rastgeleisim())
